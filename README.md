@@ -32,3 +32,31 @@ pip install -r requirements.txt
 to install the same versions.
 
 Document any setup instructions in your README.md.
+
+# Project Group 5 SCCT – Ames Housing Analysis
+**DSA 8670 – Group 5:** Tristen Rigby, Abigail , Nicole Sage, Nicholas Knight, William Bartemes
+
+## Description
+We analyze the Ames Housing dataset to find which home features drive sale price, using exploratory analysis, visualizations, and regression models.
+
+## Structure
+```
+data/        AmesHousing.csv
+notebooks/   Jupyter notebooks (run in numbered order)
+figures/     Saved plots
+requirements.txt
+```
+
+## Setup
+```bash
+git clone https://github.com/Nicolesage/Group-5-Repository-TBD-Name-.git
+cd Group-5-Repository-TBD-Name-
+pip install -r requirements.txt
+```
+Requires Python 3.10+ with pandas, numpy, matplotlib, seaborn, scikit-learn, and jupyter.
+
+## Running
+Run `jupyter notebook`, open `notebooks/`, and run each notebook in order using **Kernel → Restart & Run All**.
+
+## Data Source
+De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing Data. *Journal of Statistics Education*, 19(3).
